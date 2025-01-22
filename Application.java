@@ -20,6 +20,7 @@ class Main {
     int result = obj.addNumbers(num1, num2);
     System.out.println("Sum is: " + result);
   }
+
   #feature202 changes by peter on user accounts module in oct2024
   public void display1() {
     System.out.println("Method without parameter");
@@ -42,5 +43,25 @@ class Main {
     obj.display2(24);
   }
   #end of feature202
+
+  #feature201 changes by ethan for the module reports on oct2024
+  public static int square(int num) {
+
+    // return statement
+    return num * num;
+  }
+
+  public static void main(String[] args) {
+    int result;
+
+    // call the method
+    // store returned value to result
+    result = square(10);
+
+    System.out.println("Squared value of 10 is: " + result);
+  }
+}
+#end of feature201
+
 }
 
